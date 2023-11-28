@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+        <!-- Name: John Alongi, University: Southern Illinois University, Date developed: September 21, Date tested: September 21 -->
+
+  <head>
+    <!-- Meta information -->
+    <meta name="description" content="Alongi's Bicycles - A one-stop-shop for all your cycling needs">
+    <meta name="keywords" content="bicycle, shop, repair, maintenance, cycling">
+    <link rel="stylesheet" href="styles/style1.css">
+
+    <!-- Page title -->
+    <title>Alongi's Bicycles</title>
+                <!-- Favicon -->
+        <link rel="shortcut icon" href="images/millicon2.ico">
+        <link rel="stylesheet" href="styles/style1.css">
+        <link rel="stylesheet" href="styles/slicknav.css"> 
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
+        <script src="js/jquery.slicknav.min.js"></script> 
+        <script type="text/javascript"> 
+            $(document).ready(function(){
+                $('#nav_menu').slicknav({prependTo:"#mobile_menu"}); 
+            }); 
+        </script>
+  </head>
+  <body>
+    <!-- Name: John Alongi, University: Southern Illinois University, Date developed: January 29, Date tested: January 29 -->
+
+    <!-- Header -->
+    <header>
+      <!-- Business Name -->
+      <h1>Alongi's Bicycles</h1>
+        <img src="images/lab1.jpg" alt="HeadImage" width="500px" class="blueimg">
+        
+     <!-- Navigation Menu -->
+    <nav id="nav_menu">
+    <ul>
+    <li><a href="index.html" class ="">Home</a></li>
+    <li><a href="rentals.html" class = "current">Rentals</a></li>
+    <li><a href="sales.html" class="">Sales</a></li>
+    <li><a href="services.html" class=""> Services</a></li>
+    <li><a href="contact.html" class="lastitem"> Contact Us!</a></li>
+            </ul>
+        </nav>
+        <nav id="mobile_menu"></nav> 
+        
+      <h3 class="rental">This page has all the bikes that we offer for renting or buying. It includes a brief description and the pricing.</h3>
+    </header>
+
+    <!-- Main content area -->
+    <main>
+        <article>
+            <h2>Street Bike 1</h2>
+            <img src="images/streetbike1.jpg" class="rentalimg">
+            <p> A lightweight and nimble bike perfect for zipping around the city streets. Features a comfortable saddle and handlebar grips, and a reliable 7-speed Shimano drivetrain. Ideal for riders who want a quick and efficient way to get around town.</p>
+            <p>Price: $20/day, $120/week</p>
+            <p>Helmet rental: $5/day</p>
+            
+
+            <h2>Street Bike 2</h2>
+            <img src="images/streetbike2.jpg" class="rentalimg">
+            <p>A sportier version of Street Bike 1, with a more aggressive riding position and a higher-end 9-speed Shimano drivetrain. Perfect for riders who want to tackle longer rides or more challenging terrain.</p>
+            <p>Price: $30/day, $180/week</p>
+            <p>Helmet rental: $5/day</p>
+
+            <h2>Mountain Bike 1</h2>
+            <img src="images/mountainbike1.jpg" class="rentalimg">
+            <p>A rugged and capable mountain bike, built to handle any off-road terrain. Features a durable aluminum frame, 21-speed Shimano drivetrain, and responsive front suspension. Ideal for riders who want to explore the local trails or go on an adventure in the great outdoors.</p>
+            <p>Price: $25/day, $150/week</p>
+            <p>Helmet rental: $5/day</p>
+
+            <h2>Mountain Bike 2</h2>
+            <img src="images/mountainbike2.jpg" class="rentalimg">
+            <p> A premium mountain bike designed for serious off-road riders. Features a lightweight carbon fiber frame, 27-speed Shimano drivetrain, and top-of-the-line suspension components. Perfect for riders who demand the best performance and handling on the toughest trails.</p>
+            <p>Price: $40/day, $240/week</p>
+            <p>Helmet rental: $5/day</p>
+        </article>
+    </main>
+    </body>
+    </html>
