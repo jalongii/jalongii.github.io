@@ -1,0 +1,146 @@
+/*Name: John Alongi, University: Southern Illinois University, Date developed: August 31, Date tested: October 5*/
+
+/* CSS page for index */
+
+
+#nav_menu {
+    display: block; /* Display the actual menu by default */
+}
+
+#mobile_menu {
+    display: none;
+} 
+
+
+@media only screen and (max-width: 1035px) {
+    /* Hide the actual menu on small screens */
+    #nav_menu {
+        display: none;
+    }
+
+    /* Display the SlickNav menu on small screens */
+    #mobile_menu {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    /* Hide the actual menu on small screens */
+    #nav_menu {
+        display: none;
+    }
+    
+ @media only screen and (max-width: 320px) {
+    /* Hide the actual menu on small screens */
+    #nav_menu {
+        display: none;
+    }
+
+    /* Display the SlickNav menu on small screens */
+    #mobile_menu {
+        display: block;
+    }
+}
+
+body {
+    /* Adding margin and a light background */
+    margin: 1%;
+    background-color: lightskyblue;
+}
+
+h1 {
+    /* Adding padding */
+    padding: 2%;
+    text-align: center;
+}
+
+h2 {
+    padding: 2%;
+}
+
+p {
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+main {
+    padding-left: 3%;
+    padding-top: 5%;
+}
+
+@media only screen and (max-width: 479px) {
+    blockquote {
+        padding-left: 2%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    blockquote {
+        padding-left: 2%;
+    }
+}
+
+.rental {
+    padding-left: 3%;
+    padding-top: 5%;
+}
+
+.blueimg {
+    border: 0.2em solid blue;
+    border-radius: 50%;
+    padding: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list {
+    padding-left: 2%;
+}
+
+article {
+    column-count: 2;
+    column-gap: 2%;
+    margin: 0 auto;
+    max-width: 90%; /* Adjust this as needed */
+}
+
+.rentalimg {
+    width: 100%; /* Fluid width */
+}
+
+#nav_menu ul {
+    list-style-type: none;
+}
+
+#nav_menu ul li {
+    float: left;
+    padding-left: 2%; /* Adjust as needed */
+}
+
+#nav_menu ul li a {
+  text-align: center;
+ display: block;
+ width: 175px;
+ padding: 1em 0; /* padding above and below a
+ elements */
+ text-decoration: none;
+ background-color: black;
+ color: white;
+ font-weight: bold;
+ border-right: 2px solid white;
+}
+
+#nav_menu ul li a.lastitem {
+    border-right: none;
+}
+
+#nav_menu ul li a.current {
+    color: yellow;
+}
